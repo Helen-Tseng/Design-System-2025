@@ -191,22 +191,23 @@ sidebar: true
     <table class="table table-bordered w1000">
         <thead class="bg-primary-8">
             <tr>
-                <th scope="col"></th>
-                <th scope="col" colspan="3">≤ 768px</th>
+                <th scope="col" style="width: 1%;"></th>
+                <th scope="col">≤ 768px</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td rowspan="3" class="bg-primary-2" scope="row">
-                    <p class="text-gray-11">:defualt<br>:active</p>
+                <td class="bg-primary-2">
                 </td>
                 <td style="padding: 20px;">
                     <img src="./overview/img/steps-1.png" alt="">
                 </td>
             </tr>
             <tr>
-                <td>
-                    <b>Default樣式</b><br>
+              <td class="bg-primary-2 text-gray-11">
+              :defualt
+              </td>
+              <td>
                     <b>文字</b>
                     <ul class="pl-3 my-1">
                         <li>color:#1c1c1c</li>
@@ -222,17 +223,19 @@ sidebar: true
                 </td>
             </tr>
             <tr>
-                <td>
-                    <b>Active樣式</b><br>
-                    <b>文字</b>
-                    <ul class="pl-3 my-1">
-                        <li>color:#ffffff</li>
-                    </ul>
-                    <b>背景</b>
-                    <ul class="pl-3 my-1">
-                        <li>background-color:#00a19b</li>
-                    </ul>
-                </td>
+              <td class="bg-primary-2 text-gray-11">
+              :active
+              </td>
+              <td>
+                  <b>文字</b>
+                  <ul class="pl-3 my-1">
+                      <li>color:#ffffff</li>
+                  </ul>
+                  <b>背景</b>
+                  <ul class="pl-3 my-1">
+                      <li>background-color:#00a19b</li>
+                  </ul>
+              </td>
             </tr>
         </tbody>
     </table>
@@ -241,22 +244,23 @@ sidebar: true
     <table class="table table-bordered w1000">
         <thead class="bg-primary-8">
             <tr>
-                <th scope="col"></th>
-                <th scope="col" colspan="3">> 768px</th>
-            </tr>
+                <th scope="col" style="width: 1%;"></th>
+                <th scope="col">&gt; 768px</th>
+                </tr>
         </thead>
         <tbody>
             <tr>
-                <td rowspan="3" class="bg-primary-2" scope="row">
-                    <p class="text-gray-11">:defualt<br>:active</p>
+                            <td class="bg-primary-2">
                 </td>
                 <td style="padding: 20px;">
-                    <img src="./overview/img/steps-2.png" alt="" width=" 285px">
+                    <img src="./overview/img/steps-2.png" alt="" width=" 285">
                 </td>
             </tr>
             <tr>
+                        <td class="bg-primary-2 text-gray-11">
+              :defualt
+            </td>
                 <td>
-                    <b>Default樣式</b><br>
                     <b>文字</b>
                     <ul class="pl-3 my-1">
                         <li>color:#1c1c1c</li>
@@ -272,8 +276,10 @@ sidebar: true
                 </td>
             </tr>
             <tr>
+                        <td class="bg-primary-2 text-gray-11">
+              :active
+            </td>
                 <td>
-                    <b>Active樣式</b><br>
                     <b>文字</b>
                     <ul class="pl-3 my-1">
                         <li>color:#ffffff</li>

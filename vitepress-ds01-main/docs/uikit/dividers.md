@@ -42,7 +42,7 @@ sidebar: true
     <table class="table table-bordered w1000">
         <thead class="bg-primary-8">
             <tr>
-                <th scope="col"></th>
+                <th scope="col" style="width: 15%;"></th>
                 <th scope="col" colspan="3">All media</th>
             </tr>
         </thead>
